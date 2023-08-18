@@ -1,0 +1,25 @@
+body {
+    background-color: #e5e5f7;
+    opacity: 0.8;
+}
+  
+h1 {
+    color: black;
+}
+
+input[type="file"] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #8534db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #6f29b9;
+}

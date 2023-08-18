@@ -1,0 +1,3 @@
+Image Path: uploads/img_100.jpg; Predicted Class: 4
+Image Path: uploads/img_101.jpg; Predicted Class: 0
+Image Path: uploads/test.jpg; Predicted Class: 2
