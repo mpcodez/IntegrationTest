@@ -56,7 +56,7 @@ def classify_image(image_path):
     prediction = model.predict(image)
     predicted_class = class_names[np.argmax(prediction)]
 
-    with open('readme.txt', 'a') as f:
+    with open('requests.txt', 'a') as f:
         f.write("Image Path: " + image_path + "; Predicted Class: " + predicted_class + "\n")
 
     return jsonify({'prediction': predicted_class, 'image_url': image_path})
